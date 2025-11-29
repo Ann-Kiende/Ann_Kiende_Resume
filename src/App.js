@@ -10,7 +10,7 @@ import { BrowserRouter, Routes, Route, Link, Links } from 'react-router-dom';
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename='/ann_kiende_resume'>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
