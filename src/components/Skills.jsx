@@ -17,7 +17,24 @@ const Skills = () => {
         </div>
       </div>
 
-      <div className='main'>SKILLS</div>
+      <div className='main skills'>
+        <ul class='technologies'>
+          <p>Technologies</p>
+          <li id='list-item'>React</li>
+          <li id='list-item'>JavaScript (ES6)</li>
+          <li id='list-item'>HTML / CSS</li>
+          <li id='list-item'>Vite</li>
+          <li id='list-item'>Git & GitHub</li>
+        </ul>
+
+        <ul class='soft-skills'>
+          <p>Soft Skills</p>
+          <li id='list-item'>Attention to detail</li>
+          <li id='list-item'>Clear communication</li>
+          <li id='list-item'>Fast learning</li>
+          <li id='list-item'>UI sense / good design eye</li>
+        </ul>
+      </div>
     </div>
   );
 };
