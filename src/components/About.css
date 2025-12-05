@@ -30,8 +30,8 @@
 
 /* Dark overlay for readability */
 .about::before,
-.projects::before,
-.skills::before {
+.projects::before
+/* ,.skills::before  */ {
   content: '';
   position: absolute;
   top: 0;
@@ -150,6 +150,18 @@
 .icons:hover {
   color: #fff;
   cursor: pointer;
+  font-weight: bold;
+}
+
+/* SKILLS */
+.skills {
+  color: #fff;
+  background: rgba(18, 25, 34, 0.9);
+}
+
+.technologies p,
+.soft-skills p {
+  color: bisque;
   font-weight: bold;
 }
 
