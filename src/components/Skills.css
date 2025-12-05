@@ -1,0 +1,51 @@
+/* ---------- SKILLS PAGE ---------- */
+
+.skills {
+  background: rgba(18, 25, 34, 0.9);
+}
+
+/* Layout for the Skills page */
+.skills-main {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+  margin: auto 0;
+}
+
+/* Each card container */
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 20px;
+  border-radius: 12px;
+  min-width: 240px;
+  max-width: 320px;
+  flex: 1 1 280px;
+  height: 250px;
+  backdrop-filter: blur(3px);
+}
+
+/* Card title */
+.card .title {
+  color: bisque;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+/* List reset */
+.card ul {
+  padding-left: 18px;
+}
+
+/* List items */
+.card li {
+  list-style: disc;
+  line-height: 1.5;
+  color: white;
+}

@@ -1,0 +1,33 @@
+/* ---------- PROJECTS PAGE ---------- */
+
+.projects {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Background video */
+.bg-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Dark overlay */
+.projects::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(18, 25, 34, 0.9);
+  z-index: 0;
+}
+
+/* Simple centered title for now */
+.projects .main {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 100px;
+}
