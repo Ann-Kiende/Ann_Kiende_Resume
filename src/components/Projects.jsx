@@ -23,7 +23,9 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className='main'>PROJECTS</div>
+      <div className='main'>
+        <div className='btn'></div>
+      </div>
     </div>
   );
 };
